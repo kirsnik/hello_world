@@ -11,36 +11,24 @@
 	<title>Page Scroll to id - jQuery plugin demo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- stylesheet for demo and examples -->
-	<link rel="stylesheet" href="css/style.css">
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
-    
-	
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+
 	<!-- Google CDN jQuery with fallback to local -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/jquery-3.1.0.min.js"><\/script>')</script>
-	
-	<!-- Page Scroll to id plugin -->
-	<script src="jquery.malihu.PageScroll2id.min.js"></script>
-
-	
-
-	
 </head>
 
 <body>
 	
 	<nav id="navigation-menu">
 		<ul>
-			<li><a href="#section-1" rel="m_PageScroll2id">Section 1</a></li>
-			<li><a href="#section-2" rel="m_PageScroll2id">Section 2</a></li>
-			<li><a href="#section-3" rel="m_PageScroll2id">Section 3</a></li>
-			<li><a href="#section-4" rel="m_PageScroll2id">Section 4</a></li>
-			<li><a href="#section-5" rel="m_PageScroll2id">Section 5</a></li>
-			<li><a href="#section-6" rel="m_PageScroll2id">Section 6</a></li>
-			<li><a href="#section-7" rel="m_PageScroll2id">Section 7</a></li>
+			<li><a href="#section-1" rel="m_PageScroll2id">About Me</a></li>
+			<li><a href="#section-2" rel="m_PageScroll2id">HTML & CSS</a></li>
+			<li><a href="#section-3" rel="m_PageScroll2id">JavaScript</a></li>
+			<li><a href="#section-4" rel="m_PageScroll2id">Jquery</a></li>
+			<li><a href="#section-5" rel="m_PageScroll2id">Node.js</a></li>
+			<li><a href="#section-6" rel="m_PageScroll2id">MySQL</a></li>
+			<li><a href="#section-7" rel="m_PageScroll2id">Contact</a></li>
 		</ul>
 	</nav>
 	
@@ -49,19 +37,20 @@
 			<div class="content">
 				<h2>About Me</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img id="portPic" src="images/img_avatar.png" alt="Avatar" style="width:200px">
 			</div>
 		</section>
 		<section id="section-2">
 			<div class="content">
-				<h2>HTML & CSS 2</h2>
+				<h2>HTML & CSS</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</section>
 		<section id="section-3">
 			<div class="content">
-				<h2>JavaScript</h2>
+				<h2>JS</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
@@ -89,15 +78,25 @@
 		</section>
 		<section id="section-7">
 			<div class="content">
-				<h2>....</h2>
+				<h2>Contact</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<hr /><a href="#section-1" rel="m_PageScroll2id">&uarr; Back to top</a>
+                <a href="mailto:">
+                    <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                </a> 
+                <a href="tel:+">
+                     <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
+                </a>
+                <a >
+                    <i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+                </a>
+                <hr />
 			</div>
 		</section>
 	</div>
 	
 	<footer>
+           <span> &copy; </span>
 	</footer>
 	
 	<!-- Google CDN jQuery with fallback to local -->
